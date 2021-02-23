@@ -240,7 +240,7 @@ FirebaseMessaging.onMessage.listen((RemoteMessage message) {
             channel.id,
             channel.name,
             channel.description,
-            icon: android?.smallIcon,
+            icon: null, //To use default icon
             // other properties...
           ),
         ));
